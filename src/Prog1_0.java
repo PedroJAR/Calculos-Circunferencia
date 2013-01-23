@@ -13,6 +13,8 @@ public class Prog1_0 {
 		int radio;
 		System.out.println("Introduce el radio de la esfera");
 			radio = leerradio.nextInt();
+			
+			volumen = (4*(Math.PI)*(Math.pow(radio,3))/3);
 	}
 
 }
