@@ -5,6 +5,9 @@ public class Prog1_0 {
 
 	
 	public static void main(String[] args) {
+		
+		double volumen;
+		
 		// TODO Auto-generated method stub
 		Scanner leerradio = new Scanner(System.in);
 		int radio;
