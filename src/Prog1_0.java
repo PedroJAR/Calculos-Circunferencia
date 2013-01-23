@@ -15,6 +15,9 @@ public class Prog1_0 {
 			radio = leerradio.nextInt();
 			
 			volumen = (4*(Math.PI)*(Math.pow(radio,3))/3);
+			
+			System.out.println("El volumen del circulo cuyo radio "+radio+" es "+volumen);
+			System.out.println("Finalizado Version 1");
 	}
 
 }
